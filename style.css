@@ -1,0 +1,79 @@
+/* style.css */
+
+/* Set different fonts for headings & paragraph */
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif, sans-serif;
+  }
+  
+  p, dd, dt {
+    font-family: 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif, serif;
+  }
+  
+  /* Adjust font size and weight for headings and paragraphs */
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+    font-weight: normal;
+    
+  }
+  
+  /* Change the color of text elements */
+  h1 {
+    color: #fffcfc;
+  }
+  
+  h2 {
+    color: #ffe0e0;
+  }
+  
+  p, dd, dt {
+    color: #ffe600;
+  }
+  
+  /* Experiment with background colors behind text */
+  body {
+    background-color: #000000;
+    padding: 5%;
+    margin: 5%;
+  }
+  
+  /* Add underline decoration to links */
+  a {
+    text-decoration: underline;
+  }
+  
+  /* Transform text to uppercase, lowercase, or capitalize */
+  h1 {
+    text-transform: uppercase;
+  }
+  
+  /* Add subtle text shadows to headings */
+  h1, h2 {
+    text-shadow: 1px 1px 2px rgba(255, 43, 255, 0.568);
+  }
+  ol{
+    color: #f3fdff;
+  }
+
+  section{
+    color: aqua;
+  }
+
+  img{
+    height: 300px;
+    width: 300px;
+    border: solid;
+    border-color: #0099ff;
+    border-radius: 50px;
+  }
+
+
